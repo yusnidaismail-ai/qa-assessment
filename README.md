@@ -30,3 +30,5 @@ npm run test -- --headed
 npx playwright show-report
 
 ## Update package.json so that we can use a simple cleaner and more standard npm command
+
+## Update page locator in LoginPage.ts to use back data-test to standardized the locator name
