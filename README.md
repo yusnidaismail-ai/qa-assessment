@@ -21,10 +21,12 @@ npm test
 ## Run in headed mode
 
 ```bash
-npm run test --headed
+npm run test -- --headed
 ```
 
 ## Generate HTML report
 
 ```bash
 npx playwright show-report
+
+## Update package.json so that we can use a simple cleaner and more standard npm command
