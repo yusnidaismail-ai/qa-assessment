@@ -1,5 +1,4 @@
-import { expect } from '@playwright/test';
-import type { Page, Locator } from '@playwright/test';
+import { Page, Locator, expect } from '@playwright/test';
 
 export class CheckoutPage {
   private page: Page;
